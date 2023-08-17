@@ -1,0 +1,5 @@
+section {
+  padding: 8px 1rem;
+  display: flex;
+  flex-direction: column;
+}

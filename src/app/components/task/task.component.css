@@ -1,0 +1,35 @@
+.task {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px #ccc;
+  transition: all 0.3s ease;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-name {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.task-done>button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: tomato;
+  font-weight: 700;
+  font-size: 1.5rem;
+  height: 32px;
+  width: 32px;
+}
+
+.green-left-border {
+  border-left: 5px solid green;
+}
