@@ -1,5 +1,3 @@
 <section>
-  <app-task></app-task>
-  <app-task></app-task>
-  <app-task></app-task>
+  <app-task *ngFor="let t of tasks" [task]="t.task" [scheduledAt]="t.scheduledAt" [reminder]="t.reminder"></app-task>
 </section>
